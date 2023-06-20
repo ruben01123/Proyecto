@@ -34,9 +34,14 @@ include("bbdd.php");
 						<?php
 						}
 						?>
-					
 					</tbody>
 				</table>
+						<?php
+						echo '<a href="insertar.php" style="button">
+                                                        <button>Añadir</button>
+                                                      </a>';
+                                                ?>
+
 			</div>
 		</div>
 	</body>
